@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/searchPanes.jqueryui.css",
+        "css/searchPanes.jqueryui.min.css"
+    ],
+    "js": [
+        "js/searchPanes.jqueryui.js",
+        "js/searchPanes.jqueryui.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/SearchPanes",
+    "last-sync": "",
+    "last-tag": ""
+}
