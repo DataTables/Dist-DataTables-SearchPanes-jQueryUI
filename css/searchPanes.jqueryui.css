@@ -290,8 +290,23 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody td.dtsp-countColumn {
   text-align: right;
 }
-div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody span.dtsp-pill {
-  float: right;
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody table {
+  table-layout: fixed;
+}
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody table tbody tr td.dtsp-nameColumn {
+  width: 100% !important;
+}
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody table tbody tr div.dtsp-nameCont {
+  width: 100%;
+}
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody table tbody tr div.dtsp-nameCont span.dtsp-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  width: calc(100% - 40px);
+  vertical-align: middle;
+}
+div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_scrollBody table tbody tr div.dtsp-nameCont span.dtsp-pill {
   background-color: #cfcfcf;
   text-align: center;
   border: 1px solid #cfcfcf;
