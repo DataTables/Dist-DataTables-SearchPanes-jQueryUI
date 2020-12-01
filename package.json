@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-searchpanes-ju",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "SearchPanes for DataTables with styling for jQuery UI",
     "files": [
         "css/**/*.css",
