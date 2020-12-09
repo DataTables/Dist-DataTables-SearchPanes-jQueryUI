@@ -234,13 +234,6 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dtsp-topRow
   border: none;
   padding-left: 3px;
 }
-div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dtsp-topRow button.dtsp-dull {
-  cursor: context-menu !important;
-  color: #7c7c7c;
-}
-div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dtsp-topRow button.dtsp-dull:hover {
-  background-color: transparent;
-}
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane input.dtsp-paneInputButton,
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane button.dtsp-paneButton {
   height: 35px;
@@ -268,6 +261,14 @@ div.dtsp-panesContainer button.dtsp-clearAll {
 div.dtsp-panesContainer button.dtsp-clearAll:hover {
   background-color: #f0f0f0;
   border-radius: 2px;
+  cursor: pointer;
+}
+div.dtsp-panesContainer button.dtsp-disabledButton {
+  cursor: context-menu !important;
+  color: #7c7c7c;
+}
+div.dtsp-panesContainer button.dtsp-disabledButton:hover {
+  background-color: transparent;
 }
 
 div.dtsp-narrow {
