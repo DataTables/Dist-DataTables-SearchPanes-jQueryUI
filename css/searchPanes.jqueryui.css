@@ -274,6 +274,9 @@ div.dtsp-panesContainer button.dtsp-disabledButton {
 div.dtsp-panesContainer button.dtsp-disabledButton:hover {
   background-color: transparent;
 }
+div.dtsp-panesContainer button.dtsp-disabledButton:focus {
+  outline: none;
+}
 
 div.dtsp-narrow {
   flex-direction: column !important;
