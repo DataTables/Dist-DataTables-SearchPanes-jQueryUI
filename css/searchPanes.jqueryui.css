@@ -268,7 +268,7 @@ div.dtsp-panesContainer button.dtsp-clearAll:hover {
   cursor: pointer;
 }
 div.dtsp-panesContainer button.dtsp-disabledButton {
-  cursor: context-menu !important;
+  cursor: not-allowed !important;
   color: #7c7c7c;
 }
 div.dtsp-panesContainer button.dtsp-disabledButton:hover {
