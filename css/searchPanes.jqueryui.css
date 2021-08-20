@@ -2,6 +2,8 @@ div.dtsp-topRow {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
   justify-content: space-around;
   align-content: flex-start;
   align-items: flex-start;
@@ -58,6 +60,27 @@ div.dtsp-topRow button.dtsp-countButton {
   background-position: center;
   background-size: 18px;
   vertical-align: bottom;
+}
+div.dtsp-topRow button.dtsp-collapseButton span.dtsp-caret {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+}
+div.dtsp-topRow button.dtsp-collapseButton.dtsp-rotated {
+  transform: rotate(180deg);
+}
+
+div.dtsp-topRow.dtsp-bordered {
+  border: 2px solid #f0f0f0;
+  border-radius: 3px;
+}
+
+div.dtsp-topRow.dtsp-bordered:hover {
+  background-color: #f0f0f0;
+  opacity: 0.6;
+  border: 2px solid #cfcfcf;
+  border-radius: 3px;
+  cursor: pointer !important;
 }
 
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane table thead th,
@@ -203,6 +226,7 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane {
   flex-grow: 1;
   flex-shrink: 0;
   font-size: 0.9em;
+  margin-top: 15px !important;
 }
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane div.dataTables_wrapper {
   flex: 1;
@@ -215,7 +239,9 @@ div.dtsp-panesContainer div.dtsp-title {
   float: left;
   padding: 10px 0;
 }
-div.dtsp-panesContainer button.dtsp-clearAll {
+div.dtsp-panesContainer button.dtsp-clearAll,
+div.dtsp-panesContainer button.dtsp-collapseAll,
+div.dtsp-panesContainer button.dtsp-showAll {
   float: right;
   padding: 10px;
   font-size: 1em;
@@ -263,11 +289,15 @@ div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane button.dtsp-pan
 div.dtsp-panesContainer div.dtsp-searchPanes div.dtsp-searchPane button.dtsp-paneButton {
   opacity: 0.6;
 }
-div.dtsp-panesContainer button.dtsp-clearAll {
+div.dtsp-panesContainer button.dtsp-clearAll,
+div.dtsp-panesContainer button.dtsp-collapseAll,
+div.dtsp-panesContainer button.dtsp-showAll {
   border: 1px solid transparent;
   background-color: transparent;
 }
-div.dtsp-panesContainer button.dtsp-clearAll:hover {
+div.dtsp-panesContainer button.dtsp-clearAll:hover,
+div.dtsp-panesContainer button.dtsp-collapseAll:hover,
+div.dtsp-panesContainer button.dtsp-showAll:hover {
   background-color: #f0f0f0;
   border-radius: 2px;
   cursor: pointer;
@@ -281,6 +311,14 @@ div.dtsp-panesContainer button.dtsp-disabledButton:hover {
 }
 div.dtsp-panesContainer button.dtsp-disabledButton:focus {
   outline: none;
+}
+
+div.dtsp-topRow.dtsp-bordered:hover button.dtsp-disabledButton {
+  cursor: pointer !important;
+  pointer-events: none;
+}
+div.dtsp-topRow.dtsp-bordered:hover input.dtsp-paneInputButton {
+  pointer-events: none;
 }
 
 div.dtsp-narrow {
@@ -317,4 +355,8 @@ div.dtsp-searchPane div.dataTables_wrapper {
 }
 div.dtsp-searchPane div.dataTables_wrapper:hover {
   border: 1px solid #aaa !important;
+}
+div.dtsp-searchPane div.dtsp-topRow.dtsp-bordered {
+  border: 1px solid #aaa;
+  border-radius: 3px;
 }
