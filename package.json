@@ -2,12 +2,14 @@
     "name": "datatables.net-searchpanes-jqui",
     "description": "SearchPanes for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/searchPanes.jqueryui.js",
+    "module": "js/searchPanes.jqueryui.mjs",
     "style": "css/searchPanes.jqueryui.css",
     "types": "./types/searchPanes.jqueryui.d.ts",
     "version": "2.0.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
