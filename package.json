@@ -4,7 +4,7 @@
     "main": "js/searchPanes.jqueryui.js",
     "module": "js/searchPanes.jqueryui.mjs",
     "style": "css/searchPanes.jqueryui.css",
-    "types": "./types/searchPanes.jqueryui.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.0.2",
     "files": [
         "css/**/*.css",

@@ -10,7 +10,8 @@
         "css/searchPanes.jqueryui.min.css"
     ],
     "types": [
-        "types/searchPanes.jqueryui.d.ts"
+        "types/searchPanes.jqueryui.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/SearchPanes",
     "last-tag": "2.0.2"
