@@ -3,8 +3,8 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
-import 'datatables.net-searchpanes';
+import DataTable from 'datatables.net-jqui';
+import SearchPanes from 'datatables.net-searchpanes';
 
 
 $.extend(true, DataTable.SearchPane.classes, {
