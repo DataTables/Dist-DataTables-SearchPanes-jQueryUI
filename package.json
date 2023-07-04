@@ -5,7 +5,7 @@
     "module": "js/searchPanes.jqueryui.mjs",
     "style": "css/searchPanes.jqueryui.css",
     "types": "./types/searchPanes.jqueryui.d.ts",
-    "version": "2.1.2",
+    "version": "2.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "SearchPanes",
- "search",
- "filtering",
+        "search",
+        "filtering",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
