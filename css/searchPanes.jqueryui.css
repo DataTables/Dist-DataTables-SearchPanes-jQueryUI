@@ -363,13 +363,13 @@ div.dtsp-columns-6 {
   }
 }
 html.dark div.dtsp-topRow div.dtsp-subRow1 button.dtsp-searchIcon span {
-  filter: invert();
+  filter: invert(1);
 }
 html.dark div.dtsp-topRow button.dtsp-nameButton span {
-  filter: invert();
+  filter: invert(1);
 }
 html.dark div.dtsp-topRow button.dtsp-countButton span {
-  filter: invert();
+  filter: invert(1);
 }
 html.dark div.dtsp-topRow input.dtsp-paneInputButton,
 html.dark div.dtsp-topRow button.dtsp-paneButton {
