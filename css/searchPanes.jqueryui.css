@@ -342,7 +342,7 @@ div.dtsp-searchPane div.dataTables_wrapper:hover {
 }
 div.dtsp-searchPane div.dt-container div.dt-scroll,
 div.dtsp-searchPane div.dataTables_wrapper div.dt-scroll {
-  margin: -5px 0;
+  margin: -0.75em 0;
 }
 div.dtsp-searchPane div.dt-container table.dataTable,
 div.dtsp-searchPane div.dataTables_wrapper table.dataTable {
