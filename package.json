@@ -5,7 +5,7 @@
     "module": "js/searchPanes.jqueryui.mjs",
     "style": "css/searchPanes.jqueryui.css",
     "types": "./types/searchPanes.jqueryui.d.ts",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchpanes": "2.3.3",
+        "datatables.net-searchpanes": "2.3.4",
         "datatables.net-jqui": "^2",
         "jquery": ">=1.7"
     },
