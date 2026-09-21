@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchpanes-jqui",
     "description": "SearchPanes for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/searchPanes.jqueryui.js",
-    "module": "js/searchPanes.jqueryui.mjs",
-    "style": "css/searchPanes.jqueryui.css",
+    "main": "./js/searchPanes.jqueryui.js",
+    "module": "./js/searchPanes.jqueryui.mjs",
+    "style": "./css/searchPanes.jqueryui.css",
     "types": "./types/searchPanes.jqueryui.d.ts",
     "version": "2.3.5",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchPanes",
@@ -49,5 +48,24 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-SearchPanes-jQueryUI.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchPanes.jqueryui.d.ts",
+            "import": "./js/searchPanes.jqueryui.mjs",
+            "default": "./js/searchPanes.jqueryui.mjs",
+            "require": "./js/searchPanes.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchPanes.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
