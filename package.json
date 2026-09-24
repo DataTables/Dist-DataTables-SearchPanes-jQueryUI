@@ -52,9 +52,10 @@
     "exports": {
         ".": {
             "types": "./types/searchPanes.jqueryui.d.ts",
+            "style": "./css/searchPanes.jqueryui.css",
             "import": "./js/searchPanes.jqueryui.mjs",
-            "default": "./js/searchPanes.jqueryui.mjs",
-            "require": "./js/searchPanes.jqueryui.js"
+            "require": "./js/searchPanes.jqueryui.js",
+            "default": "./js/searchPanes.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
