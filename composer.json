@@ -2,8 +2,7 @@
     "name": "datatables.net/datatables.net-searchpanes-jqui",
     "description": "SearchPanes for DataTables with styling for jQueryUI",
     "support": {
-        "forum": "https://datatables.net/forums",
-        "source": "https://github.com/DataTables/Dist-DataTables-SearchPanes-jQueryUI"
+        "forum": "https://datatables.net/forums"
     },
     "homepage": "http://www.datatables.net/",
     "authors": [
