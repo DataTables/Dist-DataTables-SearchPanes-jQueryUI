@@ -1,4 +1,4 @@
-/*! SearchPanes jQuery UI styling 3.0.0 for DataTables
+/*! SearchPanes jQuery UI styling 3.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - https://datatables.net/license/plus
  */
 import DataTable from"datatables.net-jqui";import SearchPanes from"datatables.net-searchpanes";util.object.assignDeep(DataTable.SearchPane.classes,{disabledButton:"dtsp-paneInputButton dtsp-disabledButton",paneButton:"dtsp-paneButton ui-button",topRow:"dtsp-topRow ui-state-default"}),util.object.assignDeep(DataTable.SearchPanes.classes,{clearAll:"dtsp-clearAll ui-button",collapseAll:"dtsp-collapseAll ui-button",container:"dtsp-searchPanes",panes:"dtsp-panesContainer fg-toolbar ui-toolbar ui-widget-header",showAll:"dtsp-showAll ui-button"});export default DataTable;
